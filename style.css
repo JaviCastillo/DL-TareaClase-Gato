@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    background-color: rgb(87, 165, 51);
+}
+
+h1{
+    line-height: 8vh;
+    color: white;
+    font-size: 50px;
+    user-select: none;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    border-spacing: 0;
+    border-collapse: collapse; 
+    border-style: hidden;
+}
+td{
+    width: 18vh;
+    height: 18vh;
+    font-size: 13vh;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    transition-duration: 0.3s;
+    border: solid 6px white;
+}
+
+
+/* Primera fila */
+
+#c00:hover {box-shadow: inset -4px -4px 5px 0px lightgray;}
+#c00:active{box-shadow: inset -7px -7px 5px 0px lightgray;}
+
+#c01:hover {box-shadow: inset -4px -4px 5px 0px lightgray,
+                        inset 4px -4px 5px 0px lightgray;}
+#c01:active{box-shadow: inset -7px -7px 5px 0px lightgray,
+                        inset 7px -7px 5px 0px lightgray;}
+
+#c02:hover{box-shadow: inset 4px -4px 5px 0px lightgray;}
+#c02:active{box-shadow: inset 7px -7px 5px 0px lightgray;}
+
+/* Segunda fila */
+
+#c10:hover{ box-shadow: inset -4px -4px 5px 0px lightgray,
+                        inset -4px 4px 5px 0px lightgray;}
+#c10:active{box-shadow: inset -7px -7px 5px 0px lightgray,
+                        inset -7px 7px 5px 0px lightgray;}
+
+#c11:hover{box-shadow: inset -4px -4px 5px 0px lightgray,
+                       inset 4px 4px 5px 0px lightgray;}
+#c11:active{box-shadow: inset -7px -7px 5px 0px lightgray,
+                       inset 7px 7px 5px 0px lightgray;}
+
+#c12:hover{ box-shadow: inset 4px -4px 5px 0px lightgray,
+                        inset 4px 4px 5px 0px lightgray;}
+#c12:active{box-shadow: inset 7px -7px 5px 0px lightgray,
+                        inset 7px 7px 5px 0px lightgray;}
+
+/* Tercera fila */
+
+#c20:hover {box-shadow: inset -4px 4px 5px 0px lightgray;}
+#c20:active{box-shadow: inset -7px 7px 5px 0px lightgray;}
+
+#c21:hover {box-shadow: inset -4px 4px 5px 0px lightgray,
+                        inset 4px 4px 5px 0px lightgray;}
+#c21:active{box-shadow: inset -7px 7px 5px 0px lightgray,
+                        inset 7px 7px 5px 0px lightgray;}
+
+#c22:hover{box-shadow: inset 4px 4px 5px 0px lightgray;}
+#c22:active{box-shadow: inset 7px 7px 5px 0px lightgray;}
+
+h2{
+    font-size: 3.5vh;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+h2:hover{
+    font-size: 3.7vh;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      height: 0px;
+    }
+    50%{
+      opacity: 0;
+      height: 4vh;
+    }
+    100% {
+      opacity: 1;
+      height: 4vh;
+    }
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+}
